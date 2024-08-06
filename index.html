@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="question">
+            <h3>Guess the color: </h3>
+            <h1></h1>
+        </div>
+        <div id="answers">
+        <div onclick="choose(0)" id="box-1" class="color-box"></div>
+        <div onclick="choose(1)" id="box-2" class="color-box"></div>
+        <div onclick="choose(2)" id="box-3" class="color-box"></div>
+        <div onclick="choose(3)" id="box-4" class="color-box"></div>
+        <div onclick="choose(4)" id="box-5" class="color-box"></div>
+        <div onclick="choose(5)" id="box-6" class="color-box"></div>
+        </div> 
+        <div id="question-number"></div>
+        <div id="corrects-wrongs"></div>
+        <div id="temp-result"></div>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
